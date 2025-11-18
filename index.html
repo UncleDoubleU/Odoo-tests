@@ -3,12 +3,170 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/index.js" defer></script>
     <title>odoo</title>
   </head>
   <body>
-    <header><nav></nav></header>
-    <main></main>
+    <header class="navbar-container">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-link"><a href="/">Home</a></li>
+          <li class="nav-link"><a href="#">Products</a></li>
+          <li class="nav-link"><a href="#">Pages</a></li>
+          <li class="nav-link"><a href="#">App</a></li>
+          <li class="nav-link"><a href="#">Docs</a></li>
+          <li class="nav-button"><button>Sign in</button></li>
+          <li class="nav-button"><button>Buy now</button></li>
+        </ul>
+        <img
+          class="odoo-logo"
+          src="img/odoo-white.svg"
+          alt="the Odoo logo, it can be used to returned home"
+        />
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <article>
+          <h1>Development done right</h1>
+          <p>
+            Build a beautiful, modern website with flexible components built
+            from scratch.
+          </p>
+          <button>Get started +</button>
+        </article>
+
+        <article class="trusted-by-section">
+          <h2 class="trusted-by-title">Trusted by:</h2>
+          <ul class="trusted-by-list">
+            <li class="trusted-by-item">
+              <img src="img/google-white.svg" alt="Google" />
+            </li>
+            <li class="trusted-by-item">
+              <img src="img/spotify-white.svg" alt="Spotify" />
+            </li>
+            <li class="trusted-by-item">
+              <img src="img/airbnb-white.svg" alt="Air B N B" />
+            </li>
+            <li class="trusted-by-item">
+              <img src="img/paypal-white.svg" alt="Paypal" />
+            </li>
+          </ul>
+        </article>
+
+        <article class="manage-cards-section">
+          <h2>Manage cards</h2>
+          <button>Add new</button>
+          <div class="card-container">
+            <div class="top">
+              <img src="img/mastercard.svg" alt="mastercard logo" />
+              <div class="active">
+                <p>active</p>
+              </div>
+              <div class="mid"></div>
+            </div>
+            <div class="bank-card">
+              <div class="card-number">
+                <h4 class="card-label">CARD NUMBER</h4>
+                <p class="card-number">4358 7421 9256 6682</p>
+              </div>
+
+              <div class="card-details">
+                <div class="detail-group name">
+                  <h4 class="card-label">NAME</h4>
+                  <p class="card-value">John Snow</p>
+                </div>
+
+                <div class="card-group date">
+                  <h4 class="card-label">EXPIRY DATE</h4>
+                  <p class="card-value">11/23</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="starbucks-transaction">
+            <p class="transaction-name">Starbucks</p>
+            <p class="transaction-price">$5,50 USD</p>
+            <p class="transaction-details">
+              Pending - San Francisco, United States
+            </p>
+          </div>
+
+          <div class="starbucks-transaction">
+            <p class="transaction-name">Nike Sports</p>
+            <p class="transaction-price">$129,00 USD</p>
+            <p class="transaction-details">Pending - Lisbon, Portugal</p>
+          </div>
+
+          <p class="fake-link">view-all</p>
+        </article>
+      </section>
+
+      <section class="main-section">
+        <article class="tools">
+          <h3 class="article-title">Tools</h3>
+          <p class="article-subtitle">We build for designers and developers</p>
+          <p>
+            Get components and examples, including tons of variables that will
+            help you grow your business.
+          </p>
+        </article>
+
+        <article class="features">
+          <div>
+            <h3 class="article-title">Features</h3>
+            <h4 class="article-subtitle">
+              Get components and examples, including tons of variables that will
+              help you grow your business.
+            </h4>
+            <ul class="features-list">
+              <li class="features-item">Perfect for modern startups</li>
+              <li class="features-item">Perfect for modern startups</li>
+            </ul>
+          </div>
+          <div></div>
+        </article>
+
+        <article class="technology">
+          <h3 class="article-title">Technology</h3>
+          <h4 class="article-subtitle">
+            We build for designers and developers
+          </h4>
+          <p>
+            Get components and examples, including tons of variables that will
+            help you grow your business.
+          </p>
+        </article>
+
+        <article class="easy to install">
+          <h3 class="article-title">Tools</h3>
+          <h4 class="article-subtitle">
+            We build for designers and developers
+          </h4>
+          <p>
+            Get components and examples, including tons of variables that will
+            help you grow your business.
+          </p>
+        </article>
+      </section>
+    </main>
+
     <footer></footer>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> -->
   </body>
 </html>
 `
