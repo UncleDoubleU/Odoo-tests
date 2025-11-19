@@ -13,129 +13,159 @@
     <title>odoo</title>
   </head>
   <body>
-    <header class="container bg-primary">
-      <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
-        <a class="navbar-brand align-middle" href="#">
-          <img
-            class="odoo-logo"
-            src="img/odoo-white.svg"
-            alt="the Odoo logo, it can be used to returned home"
-            width="100"
-            height="auto"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header class="container-fluid bg-primary sticky-top">
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-md bg-primary border-bottom border-white"
+          data-bs-theme="dark"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-xs-2 mb-lg-0">
-            <li class="pe-2 nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="pe-2 nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="pe-2 nav-item">
-              <a class="nav-link" href="#">Pages</a>
-            </li>
-            <li class="pe-2 nav-item">
-              <a class="nav-link" href="#">App</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Docs</a>
-            </li>
-          </ul>
-          <button class="me-2 btn align-middle">Sign in</button>
-          <button class="btn btn-light align-middle">Buy now</button>
-        </div>
-      </nav>
-      <hr />
+          <a class="navbar-brand align-middle" href="#">
+            <img
+              class="odoo-logo"
+              src="img/odoo-white.svg"
+              alt="the Odoo logo, it can be used to returned home"
+              width="80"
+              height="auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-xs-2 mb-lg-0">
+              <li class="pe-2 nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="pe-2 nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="pe-2 nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="pe-2 nav-item">
+                <a class="nav-link" href="#">App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+            </ul>
+            <button class="me-2 btn align-middle">Sign in</button>
+            <button class="btn btn-light align-middle">Buy now</button>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main class="container-fluid bg-primary">
-      <section class="hero-section">
-        <article>
-          <h1>Development done right</h1>
-          <p>
-            Build a beautiful, modern website with flexible components built
-            from scratch.
-          </p>
-          <button>Get started +</button>
-        </article>
+      <section class="container text-white">
+        <div class="row row-cols-2">
+          <div class="col">
+            <article class="hero-slogan">
+              <h1>Development done right</h1>
+              <p>
+                Build a beautiful, modern website with flexible components built
+                from scratch.
+              </p>
+              <button>Get started +</button>
+            </article>
 
-        <article class="trusted-by-section">
-          <h2 class="trusted-by-title">Trusted by:</h2>
-          <ul class="trusted-by-list">
-            <li class="trusted-by-item">
-              <img src="img/google-white.svg" alt="Google" />
-            </li>
-            <li class="trusted-by-item">
-              <img src="img/spotify-white.svg" alt="Spotify" />
-            </li>
-            <li class="trusted-by-item">
-              <img src="img/airbnb-white.svg" alt="Air B N B" />
-            </li>
-            <li class="trusted-by-item">
-              <img src="img/paypal-white.svg" alt="Paypal" />
-            </li>
-          </ul>
-        </article>
+            <article class="trusted-by">
+              <h2 class="trusted-by-title">Trusted by:</h2>
+              <ul class="trusted-by-list">
+                <li class="trusted-by-item">
+                  <img
+                    src="img/google-white.svg"
+                    alt="Google"
+                    height="22.5"
+                    width="auto"
+                  />
+                </li>
+                <li class="trusted-by-item">
+                  <img
+                    src="img/spotify-white.svg"
+                    alt="Spotify"
+                    height="22.5"
+                    width="auto"
+                  />
+                </li>
+                <li class="trusted-by-item">
+                  <img
+                    src="img/airbnb-white.svg"
+                    alt="Air B N B"
+                    height="22.5"
+                    width="auto"
+                  />
+                </li>
+                <li class="trusted-by-item">
+                  <img
+                    src="img/paypal-white.svg"
+                    alt="Paypal"
+                    height="22.5"
+                    width="auto"
+                  />
+                </li>
+              </ul>
+            </article>
+          </div>
 
-        <article class="manage-cards-section">
-          <h2>Manage cards</h2>
-          <button>Add new</button>
-          <div class="card-container">
-            <div class="top">
-              <img src="img/mastercard.svg" alt="mastercard logo" />
-              <div class="active">
-                <p>active</p>
-              </div>
-              <div class="mid"></div>
-            </div>
-            <div class="bank-card">
-              <div class="card-number">
-                <h4 class="card-label">CARD NUMBER</h4>
-                <p class="card-number">4358 7421 9256 6682</p>
-              </div>
-
-              <div class="card-details">
-                <div class="detail-group name">
-                  <h4 class="card-label">NAME</h4>
-                  <p class="card-value">John Snow</p>
+          <div class="col">
+            <article class="manage-cards-section">
+              <h2>Manage cards</h2>
+              <button>Add new</button>
+              <div class="card-container">
+                <div class="top">
+                  <img src="img/mastercard.svg" alt="mastercard logo" />
+                  <div class="active">
+                    <p>active</p>
+                  </div>
+                  <div class="mid"></div>
                 </div>
+                <div class="bank-card">
+                  <div class="card-number">
+                    <h4 class="card-label">CARD NUMBER</h4>
+                    <p class="card-number">4358 7421 9256 6682</p>
+                  </div>
 
-                <div class="card-group date">
-                  <h4 class="card-label">EXPIRY DATE</h4>
-                  <p class="card-value">11/23</p>
+                  <div class="card-details">
+                    <div class="detail-group name">
+                      <h4 class="card-label">NAME</h4>
+                      <p class="card-value">John Snow</p>
+                    </div>
+
+                    <div class="card-group date">
+                      <h4 class="card-label">EXPIRY DATE</h4>
+                      <p class="card-value">11/23</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="starbucks-transaction">
-            <p class="transaction-name">Starbucks</p>
-            <p class="transaction-price">$5,50 USD</p>
-            <p class="transaction-details">
-              Pending - San Francisco, United States
-            </p>
-          </div>
+              <div class="starbucks-transaction">
+                <p class="transaction-name">Starbucks</p>
+                <p class="transaction-price">$5,50 USD</p>
+                <p class="transaction-details">
+                  Pending - San Francisco, United States
+                </p>
+              </div>
 
-          <div class="starbucks-transaction">
-            <p class="transaction-name">Nike Sports</p>
-            <p class="transaction-price">$129,00 USD</p>
-            <p class="transaction-details">Pending - Lisbon, Portugal</p>
-          </div>
+              <div class="starbucks-transaction">
+                <p class="transaction-name">Nike Sports</p>
+                <p class="transaction-price">$129,00 USD</p>
+                <p class="transaction-details">Pending - Lisbon, Portugal</p>
+              </div>
 
-          <p class="fake-link">view-all</p>
-        </article>
+              <p class="fake-link">view-all</p>
+            </article>
+          </div>
+        </div>
       </section>
 
       <section class="main-section">
