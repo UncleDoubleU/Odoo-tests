@@ -3,25 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
-    /> -->
-    <link rel="stylesheet" href="styles/styles.css" />
+    />
     <script src="scripts/index.js" defer></script>
     <title>odoo</title>
   </head>
   <body>
-    <header class="navbar-container">
+    <header class="container-sm bg-primary">
       <nav class="navbar">
-        <ul class="nav-list">
-          <li class="nav-link"><a href="/">Home</a></li>
-          <li class="nav-link"><a href="#">Products</a></li>
-          <li class="nav-link"><a href="#">Pages</a></li>
-          <li class="nav-link"><a href="#">App</a></li>
-          <li class="nav-link"><a href="#">Docs</a></li>
+        <ul class="text-white">
+          <li class="text-white"><a class="text-white" href="/">Home</a></li>
+          <li class="nav-link"><a class="text-white" href="#">Products</a></li>
+          <li class="nav-link"><a class="text-white" href="#">Pages</a></li>
+          <li class="nav-link"><a class="text-white" href="#">App</a></li>
+          <li class="nav-link"><a class="text-white" href="#">Docs</a></li>
           <li class="nav-button"><button>Sign in</button></li>
           <li class="nav-button"><button>Buy now</button></li>
         </ul>
@@ -29,12 +28,14 @@
           class="odoo-logo"
           src="img/odoo-white.svg"
           alt="the Odoo logo, it can be used to returned home"
+          width="200"
+          height="auto"
         />
       </nav>
       <hr />
     </header>
-
-    <main>
+    `
+    <main class="container">
       <section class="hero-section">
         <article>
           <h1>Development done right</h1>
@@ -340,10 +341,15 @@
         </ul>
       </section>
     </footer>
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
