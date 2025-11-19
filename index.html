@@ -13,29 +13,54 @@
     <title>odoo</title>
   </head>
   <body>
-    <header class="container-sm bg-primary">
-      <nav class="navbar">
-        <ul class="text-white">
-          <li class="text-white"><a class="text-white" href="/">Home</a></li>
-          <li class="nav-link"><a class="text-white" href="#">Products</a></li>
-          <li class="nav-link"><a class="text-white" href="#">Pages</a></li>
-          <li class="nav-link"><a class="text-white" href="#">App</a></li>
-          <li class="nav-link"><a class="text-white" href="#">Docs</a></li>
-          <li class="nav-button"><button>Sign in</button></li>
-          <li class="nav-button"><button>Buy now</button></li>
-        </ul>
-        <img
-          class="odoo-logo"
-          src="img/odoo-white.svg"
-          alt="the Odoo logo, it can be used to returned home"
-          width="200"
-          height="auto"
-        />
+    <header class="container bg-primary">
+      <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
+        <a class="navbar-brand align-middle" href="#">
+          <img
+            class="odoo-logo"
+            src="img/odoo-white.svg"
+            alt="the Odoo logo, it can be used to returned home"
+            width="100"
+            height="auto"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-xs-2 mb-lg-0">
+            <li class="pe-2 nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="pe-2 nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="pe-2 nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="pe-2 nav-item">
+              <a class="nav-link" href="#">App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Docs</a>
+            </li>
+          </ul>
+          <button class="me-2 btn align-middle">Sign in</button>
+          <button class="btn btn-light align-middle">Buy now</button>
+        </div>
       </nav>
       <hr />
     </header>
-    `
-    <main class="container">
+
+    <main class="container-fluid bg-primary">
       <section class="hero-section">
         <article>
           <h1>Development done right</h1>
