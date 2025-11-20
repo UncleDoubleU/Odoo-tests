@@ -65,7 +65,8 @@
     </header>
 
     <main class="container-fluid bg-primary pt-5">
-      <section class="container text-white">
+      <!-- make responsive when you have time -->
+      <section id="hero-section" class="container text-white">
         <div class="row row-cols-1 row-cols-md-2">
           <div class="col align-self-center">
             <article class="hero-slogan mb-5 w-50">
@@ -116,71 +117,89 @@
             </article>
           </div>
 
-          <div class="col">
+          <div id="manage-cards-container" class="col">
             <article
-              class="manage-cards bg-light text-dark p-3 w-75 align-items-center"
+              id="manage-cards"
+              class="bg-light text-dark p-3 w-75 rounded"
             >
               <div class="d-flex justify-content-between align-items-center">
                 <h5 class="">Manage cards</h5>
                 <button
-                  class="px-2 btn btn-outline-secondary h-auto"
+                  class="px-3 btn btn-outline-secondary h-auto"
                   aria-label="this is a mockup button that cannot be clicked"
                 >
                   Add new
                 </button>
               </div>
-              <div class="card-container col-12">
-                <div class="top">
+              <div
+                class="card-container col-12 p-3 mt-3 mb-3 rounded"
+                data-bs-theme="dark"
+                style="background-color: indigo"
+              >
+                <div class="top d-flex justify-content-between">
                   <img src="img/mastercard.svg" alt="mastercard logo" />
-                  <div class="active">
-                    <p>active</p>
-                  </div>
-                  <div class="mid"></div>
+
+                  <p class="badge text-bg-success align=self-center px-2 py-2">
+                    active
+                  </p>
                 </div>
-                <div class="bank-card">
-                  <div class="card-number">
-                    <h4 class="card-label">CARD NUMBER</h4>
-                    <p class="card-number">4358 7421 9256 6682</p>
-                  </div>
 
-                  <div class="card-details">
-                    <div class="detail-group name">
-                      <h4 class="card-label">NAME</h4>
-                      <p class="card-value">John Snow</p>
-                    </div>
+                <div class="card-info-container text-white pt-3">
+                  <dl class="card-number">
+                    <dt class="card-label fs-6">CARD NUMBER</dt>
+                    <dd class="card-number fs-4 text-nowrap">
+                      4358 - 7421 - 9256 - 6682
+                    </dd>
+                  </dl>
 
-                    <div class="card-group date">
-                      <h4 class="card-label">EXPIRY DATE</h4>
-                      <p class="card-value">11/23</p>
-                    </div>
+                  <div class="card-details row pt-3">
+                    <dl class="detail-group name col">
+                      <dt class="card-label fs-6">NAME</dt>
+                      <dd class="card-value fs-4">John Snow</dd>
+                    </dl>
+
+                    <dl class="detail-group date col">
+                      <dt class="card-label fs-6">EXPIRY DATE</dt>
+                      <dd class="card-value fs-4">11/23</dd>
+                    </dl>
                   </div>
                 </div>
               </div>
 
-              <div class="starbucks-transaction">
-                <p class="transaction-name">Starbucks</p>
-                <p class="transaction-price">$5,50 USD</p>
-                <p class="transaction-details">
+              <div id="starbucks-transaction" class="row row-cols-2">
+                <p class="transaction-name col-6 fw-semibold">Starbucks</p>
+                <p class="transaction-price col-6 text-end">$5,50 USD</p>
+                <p class="transaction-details col-12 opacity-50">
                   Pending - San Francisco, United States
                 </p>
               </div>
-
-              <div class="starbucks-transaction">
-                <p class="transaction-name">Nike Sports</p>
-                <p class="transaction-price">$129,00 USD</p>
-                <p class="transaction-details">Pending - Lisbon, Portugal</p>
+              <hr />
+              <div id="nike-transaction" class="row row-cols-2">
+                <p class="transaction-name col-6 fw-semibold">Nike Sports</p>
+                <p class="transaction-price col-6 text-end">$129,00 USD</p>
+                <p class="transaction-details col-12 opacity-50">
+                  Pending - Lisbon, Portugal
+                </p>
               </div>
+              <hr />
+              <!-- might need to be switched to a button for better accessibility -->
 
-              <p class="fake-link">view-all</p>
+              <a
+                href="#"
+                id="fake-link"
+                class="text-decoration-none pb-1 text-center"
+                style="border-bottom: 2px dashed #0d6efd"
+                >view-all</a
+              >
             </article>
           </div>
         </div>
       </section>
 
-      <section class="main-section">
-        <article class="tools">
-          <h3 class="article-title">Tools</h3>
-          <p class="article-subtitle">We build for designers and developers</p>
+      <section id="main-section" class="container bg-light mx-0 mt-5">
+        <article id="tools">
+          <h3 id="article-title">Tools</h3>
+          <p id="article-subtitle">We build for designers and developers</p>
           <p>
             Get components and examples, including tons of variables that will
             help you grow your business.
