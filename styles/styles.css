@@ -1,8 +1,1 @@
-html {
-  background-color: rgb(0, 94, 255);
-}
-
-img {
-  width: 100px;
-  height: auto;
-}
+@import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");

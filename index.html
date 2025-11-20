@@ -9,6 +9,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <script src="scripts/index.js" defer></script>
     <title>odoo</title>
   </head>
@@ -196,34 +197,77 @@
         </div>
       </section>
 
-      <section id="main-section" class="container bg-light mx-0 mt-5">
-        <article id="tools">
-          <h3 id="article-title">Tools</h3>
-          <p id="article-subtitle">We build for designers and developers</p>
-          <p>
-            Get components and examples, including tons of variables that will
-            help you grow your business.
-          </p>
-        </article>
-
-        <article class="features">
-          <div>
-            <h3 class="article-title">Features</h3>
-            <p class="article-subtitle">
+      <section id="main-section" class="bg-light mt-5">
+        <article id="tools" class="d-flex">
+          <div
+            class="card-img-top w-100 me-5 p-3 text-center align-content-center"
+          >
+            <img
+              class="card-img-top"
+              src="..."
+              alt="click to play the awesome projects video"
+            />
+          </div>
+          <div class="w-100 p-5">
+            <h3
+              class="article-title badge rounded-pill text-bg-warning text-white"
+            >
+              Tools
+            </h3>
+            <p class="article-subtitle fs-4">
+              We build for designers and developers
+            </p>
+            <p>
               Get components and examples, including tons of variables that will
               help you grow your business.
             </p>
-            <ul class="features-list">
-              <li class="features-item">Perfect for modern startups</li>
-              <li class="features-item">Perfect for modern startups</li>
-            </ul>
           </div>
-          <div></div>
         </article>
 
-        <article class="technology">
-          <h3 class="article-title">Technology</h3>
-          <p class="article-subtitle">We build for designers and developers</p>
+        <article id="features" class="d-flex pt-5">
+          <div class="me-5 p-5">
+            <h3
+              class="article-title badge rounded-pill text-bg-success text-white"
+            >
+              Features
+            </h3>
+            <p class="article-subtitle fs-5 mb-5">
+              Get components and examples, including tons of variables that will
+              help you grow your business.
+            </p>
+            <ul id="features-list" class="list-unstyled">
+              <li class="list-item text-success">
+                <p>
+                  <i class="bi bi-check-square-fill pe-2"></i> Perfect for
+                  modern startups
+                </p>
+              </li>
+              <li class="list-item text-success">
+                <p>
+                  <i class="bi bi-check-square-fill pe-2"></i>Perfect for modern
+                  startups
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="img w-100 p-3 text-center align-content-center">
+            <img
+              class="card-img-top"
+              src="..."
+              alt="click to play the features video"
+            />
+          </div>
+        </article>
+
+        <article id="technology">
+          <h3
+            class="article-title badge rounded-pill text-bg-primary text-white"
+          >
+            Technology
+          </h3>
+          <p class="article-subtitle fs-4 col-6">
+            We build for designers and developers
+          </p>
           <p>
             Get components and examples, including tons of variables that will
             help you grow your business.
@@ -231,9 +275,13 @@
           <a href="#" class="article-link">See case studies</a>
         </article>
 
-        <article class="easy-to-install">
-          <h3 class="article-title">Easy to install</h3>
-          <p class="article-subtitle">Download, install and run.</p>
+        <article id="easy-to-install">
+          <h3
+            class="article-title badge rounded-pill text-bg-warning text-white"
+          >
+            Easy to install
+          </h3>
+          <p class="article-subtitle fs-4 col-6">Download, install and run.</p>
           <p>
             Get components and examples, including tons of variables that will
             help you grow your business.
@@ -251,7 +299,7 @@
             </button>
           </div>
         </article>
-        <article class="infinite-solutions">
+        <article id="infinite-solutions">
           <h3>Infinite solutions</h3>
           <p>
             Intuitive markup, powerful and lightning-fast build tools,
