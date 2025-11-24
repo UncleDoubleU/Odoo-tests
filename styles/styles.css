@@ -1,15 +1,5 @@
 @import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");
 
-#hero-title {
-  width: 60%;
-}
-
-@media screen and (max-width: 578px) {
-  #hero-title {
-    width: 100%;
-  }
-}
-
 .about-item a,
 .company-item a,
 .account-item a {
