@@ -1,1 +1,25 @@
 @import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");
+
+.about-item a,
+.company-item a,
+.account-item a {
+  color: white;
+  opacity: 0.75;
+}
+.about-item a:hover,
+.about-item a:focus-visible,
+.company-item a:hover,
+.company-item a:focus-visible,
+.account-item a:hover,
+.account-item a:focus-visible {
+  opacity: 0.5;
+}
+
+#bottom-links-list a {
+  color: white;
+  opacity: 0.75;
+}
+#bottom-links-list a:hover,
+#bottom-links-list a:focus-visible {
+  opacity: 0.5;
+}
