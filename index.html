@@ -714,73 +714,150 @@
       data-bs-theme="dark"
       style="background-color: #040446"
     >
-      <section
-        id="top-footer-section"
-        class="row g-3 row-cols-1 row-cols-md-2 justify-content-between"
-      >
-        <article class="col-auto">
-          <h2>Brilliant solutions for your ideas</h2>
-          <p>Modern-looking websites.</p>
-        </article>
-        <article class="col-auto d-flex flex-column flex-md-row gap-2">
-          <button class="btn btn-light py-2 px-4" style="height: max-content">
-            Documentation
-          </button>
-          <button class="btn btn-primary py-2 px-4" style="height: max-content">
-            Purchase now
-          </button>
-        </article>
-      </section>
+      <div class="container p-0">
+        <section
+          id="top-footer-section"
+          class="row g-3 row-cols-1 row-cols-md-2"
+          style="justify-content: space-between"
+        >
+          <article class="col-auto">
+            <h2>Brilliant solutions for your ideas</h2>
+            <p>Modern-looking websites.</p>
+          </article>
+          <article
+            class="col-auto d-flex flex-column flex-md-row gap-2"
+            style="width: max-content"
+          >
+            <button class="btn btn-light py-2 px-4" style="height: max-content">
+              Documentation
+            </button>
+            <button
+              class="btn btn-primary py-2 px-4"
+              style="height: max-content"
+            >
+              Purchase now
+            </button>
+          </article>
+        </section>
+      </div>
 
-      <section id="about-odoo">
-        <img src="img/odoo-white.svg" alt="the Odoo logo" />
-        <p>
-          Odoo attempts to bring the best development experience to designers
-          and developers by offering the tools needed for having a quick and
-          solid start in most web projects.
-        </p>
-      </section>
+      <div class="container p-0">
+        <section id="about-odoo" class="row justify-content-between g-3">
+          <article class="col-12 col-md-6">
+            <img
+              src="img/odoo-white.svg"
+              alt="the Odoo logo"
+              height="45"
+              width="auto"
+              class="mb-3"
+            />
+            <p class="m-0">
+              Odoo attempts to bring the best development experience to
+              designers and developers by offering the tools needed for having a
+              quick and solid start in most web projects.
+            </p>
+          </article>
+          <article id="account" class="col-auto">
+            <h4>Account</h4>
+            <ul id="account-list" class="list-unstyled">
+              <li class="account-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Profile</a
+                >
+              </li>
+              <li class="account-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Settings</a
+                >
+              </li>
+              <li class="account-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Billing</a
+                >
+              </li>
+              <li class="account-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Notifications</a
+                >
+              </li>
+            </ul>
+          </article>
 
-      <section id="footer-nav">
-        <article id="account">
-          <h4>Account</h4>
-          <ul id="account-list" class="list-unstyled">
-            <li class="account-item"><a href="#">Profile</a></li>
-            <li class="account-item"><a href="#">Settings</a></li>
-            <li class="account-item"><a href="#">Billing</a></li>
-            <li class="account-item"><a href="#">Notifications</a></li>
+          <article id="about" class="col-auto">
+            <h4>About</h4>
+            <ul id="about-list" class="list-unstyled">
+              <li class="about-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Services</a
+                >
+              </li>
+              <li class="about-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Pricing</a
+                >
+              </li>
+              <li class="about-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+              <li class="about-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </article>
+
+          <article id="company" class="col-auto">
+            <h4>Company</h4>
+            <ul id="company-list" class="list-unstyled">
+              <li class="company-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Community</a
+                >
+              </li>
+              <li class="company-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Help center</a
+                >
+              </li>
+              <li class="company-item">
+                <a href="#" class="link-opacity-50-hover text-decoration-none"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <section id="footer-nav"></section>
+
+      <div class="container mt-5 p-0">
+        <section id="bottom-footer-section" class="row justify-content-between">
+          <p class="col-auto">
+            <span class="fw-bold">© Odoo.</span> All rights reserved
+          </p>
+
+          <ul class="col-auto d-flex list-unstyled">
+            <li class="pe-4">
+              <a href="#" class="link-opacity-50-hover text-decoration-none"
+                >Terms</a
+              >
+            </li>
+            <li class="pe-4">
+              <a href="#" class="link-opacity-50-hover text-decoration-none"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a href="#" class="link-opacity-50-hover text-decoration-none"
+                >Cookies</a
+              >
+            </li>
           </ul>
-        </article>
-
-        <article id="about">
-          <h4>About</h4>
-          <ul id="about-list" class="list-unstyled">
-            <li class="about-item"><a href="#">Services</a></li>
-            <li class="about-item"><a href="#">Pricing</a></li>
-            <li class="about-item"><a href="#">Contact</a></li>
-            <li class="about-item"><a href="#">Careers</a></li>
-          </ul>
-        </article>
-
-        <article id="company">
-          <h4>Company</h4>
-          <ul id="company-list" class="list-unstyled">
-            <li class="company-item"><a href="#">Community</a></li>
-            <li class="company-item"><a href="#">Help center</a></li>
-            <li class="company-item"><a href="#">Support</a></li>
-          </ul>
-        </article>
-      </section>
-
-      <section id="bottom-footer-section">
-        <p>© Odoo. All rights reserved</p>
-
-        <ul class="list-unstyled">
-          <li>Terms</li>
-          <li>Privacy</li>
-          <li>Cookies</li>
-        </ul>
-      </section>
+        </section>
+      </div>
     </footer>
 
     <script
