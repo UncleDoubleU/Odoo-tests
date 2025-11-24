@@ -17,7 +17,7 @@
     <header class="container-fluid bg-primary sticky-top">
       <div class="container">
         <nav
-          class="navbar navbar-expand-md bg-primary border-bottom border-white"
+          class="navbar navbar-expand-md bg-primary border-white"
           data-bs-theme="dark"
         >
           <a class="navbar-brand align-middle" href="#">
@@ -67,11 +67,11 @@
 
     <main class="container-fluid bg-primary pt-4 px-0">
       <!-- make responsive when you have time -->
-      <section id="hero-section" class="container text-white">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col align-self-center">
-            <article class="hero-slogan mb-5 w-50">
-              <h1 class="mb-3">Development done right</h1>
+      <section id="hero-section" class="container text-white pb-5">
+        <div class="row">
+          <div class="col-12 col-md-6 align-content-center">
+            <article class="hero-slogan mb-5 w-100">
+              <h1 id="hero-title" class="mb-3">Development done right</h1>
               <p class="mb-3">
                 Build a beautiful, modern website with flexible components built
                 from scratch.
@@ -80,8 +80,8 @@
             </article>
 
             <article id="trusted-by" class="d-flex">
-              <p class="text-nowrap">Trusted by:</p>
-              <ul class="list-unstyled d-flex flex-wrap">
+              <p class="text-nowrap m-0">Trusted by:</p>
+              <ul class="list-unstyled d-md-flex flex-wrap m-0">
                 <li class="list-item px-3">
                   <img
                     src="img/google-white.svg"
@@ -118,10 +118,10 @@
             </article>
           </div>
 
-          <div id="manage-cards-container" class="col">
+          <div id="manage-cards-container" class="col-12 col-md-6">
             <article
               id="manage-cards"
-              class="bg-light text-dark p-3 w-75 rounded"
+              class="bg-light text-dark p-3 w-100 rounded"
             >
               <div class="d-flex justify-content-between align-items-center">
                 <h5 class="">Manage cards</h5>
@@ -133,14 +133,18 @@
                 </button>
               </div>
               <div
-                class="card-container col-12 p-3 mt-3 mb-3 rounded"
+                class="card-container col-12 p-3 mt-3 mb-3 rounded ratio"
                 data-bs-theme="dark"
-                style="background-color: indigo"
+                style="background-color: indigo; --bs-aspect-ratio: 63%"
               >
-                <div class="top d-flex justify-content-between">
-                  <img src="img/mastercard.svg" alt="mastercard logo" />
+                <div class="top d-flex justify-content-between p-2">
+                  <img
+                    src="img/mastercard.svg"
+                    alt="mastercard logo"
+                    height="30px"
+                  />
 
-                  <p class="badge text-bg-success align=self-center px-2 py-2">
+                  <p class="badge text-bg-success align-self-start px-2 py-2">
                     active
                   </p>
                 </div>
@@ -228,7 +232,7 @@
             </div>
           </article>
 
-          <article id="features" class="d-md-flex pt-5">
+          <article id="features" class="d-md-flex mt-6">
             <div class="me-5 p-5">
               <h3
                 class="article-title badge rounded-pill text-bg-success text-white"
@@ -264,7 +268,7 @@
             </div>
           </article>
 
-          <article id="technology" class="d-md-flex pt-5">
+          <article id="technology" class="d-md-flex mt-6">
             <div
               class="card-img-top w-100 me-5 p-3 text-center align-content-center"
             >
@@ -296,7 +300,7 @@
             </div>
           </article>
 
-          <article id="easy-to-install" class="d-md-flex pt-5">
+          <article id="easy-to-install" class="d-md-flex mt-6">
             <div class="me-5 p-5">
               <h3
                 class="article-title badge rounded-pill text-bg-warning text-white"
@@ -522,7 +526,10 @@
         </section>
       </div>
 
-      <div id="helpful-answers" class="container-fluid bg-light py-5 h-100">
+      <div
+        id="helpful-answers-and-start"
+        class="container-fluid bg-light py-5 h-100"
+      >
         <section class="container align-items-center text-center mt-5">
           <h3 class="fw-medium mb-3">Helpful answers</h3>
           <p>
@@ -544,7 +551,8 @@
                     aria-expanded="false"
                     aria-controls="collapseOne"
                   >
-                    Which license do I need?
+                    <i class="bi bi-file-earmark pe-0 pe-lg-2"></i> Which
+                    license do I need?
                   </button>
                 </h2>
                 <div
