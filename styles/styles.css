@@ -26,15 +26,9 @@
 
 .awards-list-item:hover,
 .awards-list-item:focus-visible {
-  /* box-shadow: 0rem 0rem 1rem 0.5rem rgba(77, 138, 252, 0.45); */
   opacity: 0.5;
   transition: all ease-in-out 0.2s;
 }
-
-/* .awards-list-item > div {
-  width: 100%;
-  height: 100%;
-} */
 
 .card {
   min-height: 280px;
