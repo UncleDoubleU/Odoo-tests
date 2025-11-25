@@ -79,10 +79,10 @@
               <button class="btn btn-light px-4 py-2">Get started +</button>
             </article>
 
-            <article id="trusted-by" class="d-flex">
+            <article id="trusted-by" class="d-flex mb-5 w-100">
               <p class="text-nowrap m-0">Trusted by:</p>
               <ul class="list-unstyled d-md-flex flex-wrap m-0">
-                <li class="list-item px-3">
+                <li class="list-item px-2">
                   <img
                     src="img/google-white.svg"
                     alt="Google"
@@ -90,7 +90,7 @@
                     width="auto"
                   />
                 </li>
-                <li class="list-item px-3">
+                <li class="list-item px-2">
                   <img
                     src="img/spotify-white.svg"
                     alt="Spotify"
@@ -98,7 +98,7 @@
                     width="auto"
                   />
                 </li>
-                <li class="list-item px-3">
+                <li class="list-item px-2">
                   <img
                     src="img/airbnb-white.svg"
                     alt="Air B N B"
@@ -106,7 +106,7 @@
                     width="auto"
                   />
                 </li>
-                <li class="list-item px-3">
+                <li class="list-item px-2">
                   <img
                     src="img/paypal-white.svg"
                     alt="Paypal"
@@ -377,150 +377,130 @@
             id="awards-list"
             class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-2 justify-content-center"
           >
-            <li class="awards-list-item col h-100">
-              <a
-                href="https://www.odoo.com/page/about-us"
-                class="text-decoration-none"
-              >
-                <div id="airbnb-award" class="card">
-                  <div class="card-body d-flex flex-column align-items-center">
-                    <img
-                      src="img/airbnb.svg"
-                      width="auto"
-                      height="35px"
-                      alt="air B N B logo"
-                    /><br />
-                    <div
-                      class="awarded-stars d-flex mb-4"
-                      style="color: rgb(255, 208, 0)"
-                    >
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                      <i
-                        class="bi bi-star"
-                        style="color: rgb(150, 152, 160)"
-                      ></i>
-                    </div>
-                    <p class="mb-0 text-center">
-                      <b>4.95 out of 5 stars from</b><br />23 reviews
-                    </p>
+            <li id="airbnb-award" class="awards-list-item col h-100">
+              <div class="card justify-content-center">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="img/airbnb.svg"
+                    width="auto"
+                    height="35px"
+                    alt="air B N B logo"
+                  /><br />
+                  <div
+                    class="awarded-stars d-flex mb-4"
+                    style="color: rgb(255, 208, 0)"
+                  >
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star" style="color: rgb(150, 152, 160)"></i>
                   </div>
+                  <p class="mb-0 card-text text-center">
+                    <b>4.95 out of 5 stars from</b><br />23 reviews
+                  </p>
                 </div>
-              </a>
+              </div>
             </li>
 
-            <li class="awards-list-item col h-100">
-              <a
-                href="https://www.odoo.com/page/about-us"
-                class="text-decoration-none"
-              >
-                <div id="amazon-award" class="card">
-                  <div class="card-body d-flex flex-column align-items-center">
-                    <img
-                      src="img/amazon.svg"
-                      width="auto"
-                      height="35px"
-                      alt="Amazon logo"
-                    /><br />
-                    <p class="mb-4 text-center text-dark">
-                      They build modern-looking websites easily using Tabs.
-                    </p>
-                    <a
-                      href="#"
-                      class="link-dark link-offset-3 link-opacity-50-hover link-underline-opacity-50-hover"
-                      >Learn more</a
-                    >
-                  </div>
+            <li id="amazon-award" class="awards-list-item col h-100">
+              <div class="card">
+                <div
+                  class="card-body d-flex flex-column justify-content-center text-center"
+                >
+                  <img
+                    class=""
+                    src="./img/amazon.svg"
+                    width="auto"
+                    height="35px"
+                    alt="Amazon logo"
+                  /><br />
+                  <p class="mb-4 text-center card-text text-dark">
+                    They build modern-looking websites easily using Tabs.
+                  </p>
+                  <a
+                    href="#"
+                    class="link-dark link-offset-3 link-opacity-50-hover link-underline-opacity-50-hover"
+                    >Learn more</a
+                  >
                 </div>
-              </a>
+              </div>
             </li>
 
-            <li class="awards-list-item col h-100">
-              <a
-                href="https://www.odoo.com/page/about-us"
-                class="text-decoration-none"
-              >
-                <div id="slack-award" class="card">
-                  <div class="card-body d-flex flex-column align-items-center">
-                    <img
-                      src="img/slack.svg"
-                      width="auto"
-                      height="35px"
-                      alt="slack logo"
-                    /><br />
-                    <p class="mb-4 text-center text-dark">
-                      They build modern-looking websites easily using Tabs.
-                    </p>
-                    <a
-                      href="#"
-                      class="link-dark link-offset-3 link-opacity-50-hover link-underline-opacity-50-hover link-underline-opacity-50-hover"
-                      >Learn more</a
-                    >
-                  </div>
+            <li id="slack-award" class="awards-list-item col h-100">
+              <div class="card">
+                <div
+                  class="card-body d-flex flex-column justify-content-center text-center"
+                >
+                  <img
+                    src="img/slack.svg"
+                    width="auto"
+                    height="35px"
+                    alt="slack logo"
+                  /><br />
+                  <p class="mb-4 text-center text-dark">
+                    They build modern-looking websites easily using Tabs.
+                  </p>
+                  <a
+                    href="#"
+                    class="link-dark link-offset-3 link-opacity-50-hover link-underline-opacity-50-hover link-underline-opacity-50-hover"
+                    >Learn more</a
+                  >
                 </div>
-              </a>
+              </div>
             </li>
 
-            <li class="awards-list-item col h-100">
-              <a
-                href="https://www.odoo.com/page/about-us"
-                class="text-decoration-none"
-              >
-                <div id="airbnb-award" class="card">
-                  <div class="card-body d-flex flex-column align-items-center">
-                    <img
-                      src="img/spotify.svg"
-                      width="auto"
-                      height="35px"
-                      alt="spotify logo"
-                    /><br />
-                    <div
-                      class="awarded-stars d-flex mb-4"
-                      style="color: rgb(255, 208, 0)"
-                    >
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                      <i
-                        class="bi bi-star"
-                        style="color: rgb(150, 152, 160)"
-                      ></i>
-                    </div>
-                    <p class="mb-0 text-center">
-                      <b>4.95 out of 5 stars from</b><br />23 reviews
-                    </p>
+            <li id="spotify-award" class="awards-list-item col h-100">
+              <div class="card">
+                <div
+                  class="card-body d-flex flex-column text-center justify-content-center"
+                >
+                  <img
+                    src="img/spotify.svg"
+                    width="auto"
+                    height="35px"
+                    alt="spotify logo"
+                  /><br />
+                  <div
+                    class="awarded-stars d-flex mb-4 align-self-center"
+                    style="color: rgb(255, 208, 0)"
+                  >
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star" style="color: rgb(150, 152, 160)"></i>
                   </div>
+                  <p class="mb-0 card-text">
+                    <b>4.95 out of 5 stars from</b><br />23 reviews
+                  </p>
                 </div>
-              </a>
+              </div>
             </li>
 
-            <li class="awards-list-item col h-100">
-              <a
-                href="https://www.odoo.com/page/about-us"
-                class="text-decoration-none"
-              >
-                <div id="paypal-award" class="card">
-                  <div class="card-body d-flex flex-column align-items-center">
-                    <img
-                      src="img/paypal.svg"
-                      width="auto"
-                      height="35px"
-                      alt="Paypal logo"
-                    /><br />
-                    <p class="mb-4 text-center text-dark">
-                      They build modern-looking websites easily using Tabs.
-                    </p>
-                    <a
-                      href="#"
-                      class="link-dark link-offset-3 link-opacity-50-hover link-underline-opacity-50-hover"
-                      >Learn more</a
-                    >
-                  </div>
+            <li id="paypal-award" class="awards-list-item col h-100">
+              <div class="card">
+                <div
+                  class="card-body d-flex flex-column justify-content-center text-center"
+                >
+                  <img
+                    src="img/paypal.svg"
+                    width="auto"
+                    height="35px"
+                    alt="Paypal logo"
+                  /><br />
+                  <p class="mb-4 text-center text-dark">
+                    They build modern-looking websites easily using Tabs.
+                  </p>
+                  <a
+                    href="#"
+                    class="link-dark link-offset-3 link-opacity-50-hover link-underline-opacity-50-hover"
+                    >Learn more</a
+                  >
                 </div>
-              </a>
+              </div>
             </li>
           </ul>
         </section>

@@ -1,1 +1,1 @@
-# Convert this mock-up into a static HTML page
+# Convert a mock-up into a static HTML page
